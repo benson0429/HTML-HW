@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        .wrapper {
+            width: 1200px;
+            margin: auto;
+        }
+        .item{
+            display: flex;
+        }
+        .pic{
+            width: 480px;
+        }
+        .text{
+            width: 720px;
+        }
+        .pic img{
+            width: 100%;
+        }
+        .item:nth-child(odd) .pic{
+            order: 1;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="item">
+            <div class="pic">
+                <img src="https://picsum.photos/200/200/?random=1">
+            </div>
+            <div class="text">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor perspiciatis sed, id cupiditate
+                    voluptates, consectetur dolorum commodi totam minima non velit repudiandae in modi architecto
+                    tempora placeat accusamus labore pariatur?</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="pic">
+                <img src="https://picsum.photos/200/200/?random=1">
+            </div>
+            <div class="text">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor perspiciatis sed, id cupiditate
+                    voluptates, consectetur dolorum commodi totam minima non velit repudiandae in modi architecto
+                    tempora placeat accusamus labore pariatur?</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="pic">
+                <img src="https://picsum.photos/200/200/?random=1">
+            </div>
+            <div class="text">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor perspiciatis sed, id cupiditate
+                    voluptates, consectetur dolorum commodi totam minima non velit repudiandae in modi architecto
+                    tempora placeat accusamus labore pariatur?</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
