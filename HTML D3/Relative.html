@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+        }
+        .wrap{
+            width: 400px;
+            border: 1px solid green;
+            margin: auto;
+        }
+        .box{
+            padding: 10px;
+            position: relative;
+        }
+        .box img{
+            width: 100%;
+        }
+        .tab{
+            padding: 6px 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: orange;
+        }
+        .tab:hover{
+            opacity: 0.8;
+            transition: 0.5s;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box">
+            <img src="https://picsum.photos/300/300/?random=1">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptates.</p>
+            <div class="tab">sale</div>
+        </div>
+    </div>
+</body>
+</html>

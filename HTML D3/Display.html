@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .group{
+            width: 900px;
+            height: 600px;
+            background-color: #ccc;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            /* ！！！！！！！！！！！！！！！！！需要根据flex-direction决定方向！！！！！！！！！！！！！！！ */
+            /*justify-content: flex-start;  内容从横轴左边开始 */
+            /*justify-content: flex-end;    内容从横轴右边开始*/
+            /*justify-content: center;      内容在横轴中间*/
+            /* justify-content: space-between;  内容间距相同 */
+            /* justify-content: space-around;   内容两边间距一样*/
+            /* justify-content: space-evenly;   所有间距一样 */
+            /* align-items: flex-start; 内容从纵轴上方开始 */
+            /* align-items: center;     内容从纵轴中间开始*/
+            /* align-items: flex-end;   内容从纵轴下面开始 */
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: #f00;
+            color: #fff;
+            font-size: 40px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="group">
+        <div class="item">
+            1
+        </div>
+        <div class="item">
+            2
+        </div>
+        <div class="item">
+            3
+        </div>
+    </div>
+</body>
+</html>

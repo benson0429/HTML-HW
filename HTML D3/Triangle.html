@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .triangle{
+            margin: 100px;
+            width: 0px;
+            height: 0px;
+            /* 根据三角形的形状, 选择对应的两个边, 三角形的形状会根据先走的边决定, 即border后的走向决定最终形状*/
+            border-bottom: 40px solid blue;
+            border-left: 40px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="triangle"></div>
+</body>
+</html>
