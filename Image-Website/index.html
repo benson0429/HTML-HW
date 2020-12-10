@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build School</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3ef6ae48f9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Build School</a>
+            <div class="menu">
+                <button class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="header-menu">
+                    <li>
+                        <a href="#">Intro</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-text">
+                <h2>Build School 是软体开发教育的先锋，为学生打造更有竞争力的职涯！</h2>
+                <h4>START CODING AND GET COACHE FROM MENTORS.</h4>
+                <p>
+                    <a href="#" class="signup-a">Apply Now</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="content">
+        <div class="container">
+            <div class="feature-content">
+                <h3>这里没有考试，只有慢慢的程式码</h3>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div>
+                        <div class="item-body">
+                            <h4>Frondend</h4>
+                            <h3>HTML, CSS, and JS framework.</h3>
+                        </div>
+                        <div class="item-footer">
+                            <a href="#">More Information</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <div class="item-body">
+                            <h4>Frondend</h4>
+                            <h3>HTML, CSS, and JS framework.</h3>
+                        </div>
+                        <div class="item-footer">
+                            <a href="#">More Information</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <div class="item-body">
+                            <h4>Frondend</h4>
+                            <h3>HTML, CSS, and JS framework.</h3>
+                        </div>
+                        <div class="item-footer">
+                            <a href="#">More Information</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="story">
+        <div class="container story-area">
+            <div class="story-content">
+                <div class="story-img">
+                    <img src="https://picsum.photos/450/300/?random=1">
+                </div>
+                <div class="story-text">
+                    <h3>透过身经百战的务实讲师，各大企业的资深软体工程师或CTO，带领同学实作一个真正能运作的产品开发，解决真实世界的问题，透过专题过程中的实作，培养解决问题的能力，这里不只是程式教学或教育训练，学的不只是技能，而是Learn
+                        how to learn，以因应变化多端的软体开发技能，及自我寻找解答的能力</h3>
+                    <p>Project-based Learning</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="join">
+        <div class="container">
+            <div class="signup-content">
+                <h2>立刻加入</h2>
+                <p>Welcome</p>
+                <div class="sign-form">
+                    <div>
+                        <div class="input-div">
+                            <span><i class="fa fa-envelope"></i></span>
+                            <input type="text" name="" id="" placeholder="Enter Your email address">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-div">
+                            <span><i class="fa fa-lock"></i></span>
+                            <input type="text" name="" id="" placeholder="Create your password">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-div">
+                            <span><i class="fa fa-phone"></i></span>
+                            <input type="text" name="" id="" placeholder="Enter mobile number">
+                        </div>
+                    </div>
+                    <p>
+                        BY Joining, you agree to the Terms & Conditions and privacy Policy
+                    </p>
+                    <a href="#" class="">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="footer-menu">
+                <ul>
+                    <li>
+                        <a href="#">Service</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Build School</a>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    $(function(){
+        if ($(".menu-btn").is(":visible")){
+            $(".header-menu").hide();
+            $(".menu-btn").on("click", function(){
+                $(".header-menu").toggle();
+            });
+        }
+    });
+</script>
+</body>
+
+</html>
