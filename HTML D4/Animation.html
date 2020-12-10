@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box, .box1{
+            width: 100px;
+            height: 100px;
+            background-color: #f00;
+            margin: 50px;
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            /* animation: 动画名称 动画播放时间 延迟时间 速度设定 播放次数 播放方向 填充模式 播放状态 */
+            animation-name: ok;
+            animation-duration: 1s;
+            /* animation-delay: ; */
+            animation-timing-function: linear;
+            animation-iteration-count: 4;
+            animation-direction: alternate;
+            /* animation-fill-mode: ; */
+            /* animation-play-state: ; */
+        }
+        @keyframes ok{
+            0%{ transform: rotate(45deg);}
+            100%{ transform: rotate(-45deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">A</div>
+    <div class="box1">1</div>
+</body>
+</html>

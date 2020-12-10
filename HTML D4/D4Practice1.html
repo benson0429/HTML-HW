@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item {
+            width: 400px;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .container{
+            height: 400px;
+            overflow: hidden;
+        }
+        .container img{
+            width: 100%;
+            vertical-align: top;
+            transform: scale(1);
+            transition: 1s;
+        }
+        .container:hover img{
+            transform: scale(2);
+        }
+        .item h1{
+            text-align: center;
+        }
+        .item p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="item">
+        <div class="container">
+            <img src="https://picsum.photos/400/400/?random=1">
+        </div>
+        <h1>title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quos ducimus velit neque optio aperiam
+            delectus repellendus dolores illum, quo ratione nulla, fugit consequatur officiis eaque quidem! Atque,
+            assumenda repudiandae.</p>
+    </div>
+</body>
+
+</html>
